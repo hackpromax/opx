@@ -1,25 +1,11 @@
 # vue-360
 - A Simple and Beautiful 360&deg; Product Viewer built on Vue.js
 
-### [Click here for React Version](https://github.com/rajeevgade/react-360)
-
 ## Demo
 
 ![Preview](https://www.techsolate.com/vue-360-viewer/demo.gif)
 
-[Demo](https://vue-360.now.sh/) | [Documentation](https://rajeevgade.github.io/vue-360)
-
-## Features
-
-- 360&deg; View
-- Zoom
-- Pan
-- Autoplay (Loops)
-- Full Screen Mode
-- Spin Direction
-- Image Caching
-- Mobile Responsive
-- Touch Events
+[Click Here for Demo](http://rajeevgade.github.io/portfolio/vue-360-viewer)
 
 
 ## Installation
@@ -71,14 +57,8 @@ Vue.use(VueThreeSixty)
 | spinReverse | Boolean | Reverse Spin | Optional | false |
 | autoplay | Number | Autoplay your images | Optional | 24 |
 | loop | Number | Number of loops you want to autoplay | Optional | 1 |
-| stopLoopAtIndex | Number | Number of images you want to autoplay in the last loop | Optional | 1 |
 | boxShadow | Boolean | Apply Box Shadow Background | Optional | false |
 | buttonClass | String | Apply Styling to Buttons | Optional (light/dark) | light |
-| hideAllButtons | Boolean | Hides all Buttons | Optional | false |
-| paddingIndex | Boolean | Apply Leading Zero to Image Index | Optional | false |
-| disableZoom | Boolean | Disable Zoom Functionality | Optional | false |
-| scrollImage | Boolean | Scroll Images instead of Default Zoom | Optional | false |
-| draggingDirection | String | Set's the dragging direction to horizontal or vertical | Optional | horizontal |
 
 ## Buttons 
 
